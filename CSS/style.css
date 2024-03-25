@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C1518;
+}
+
+.card {
+  width: 90%;
+  max-width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/Train-Station.jpg);
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  border-radius: 25px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.IncrementBtn {
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: darkgoldenrod;
+    color: black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.IncrementBtn:hover {
+    background-color: brown;
+    color: white;
+}
+
+.saveBtn{
+  padding: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: darkgoldenrod;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.saveBtn:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.previous{
+  display: none;
+  margin-top: 30px;
+  color: white;
+  font-size: 25px;
+}
